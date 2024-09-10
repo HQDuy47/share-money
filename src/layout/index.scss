@@ -1,0 +1,16 @@
+// body {
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh; // Ensure the body covers at least the viewport height
+// }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1; // Allow the container to grow and fill available space
+}
+
+.content {
+  flex: 1; // Allows the content area to take up available space
+  min-height: 100vh;
+}
